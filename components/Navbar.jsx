@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <div className={styles.container}>
       <Link href="/">
-        <Image src="/img/Logo.png" width="60" height="60" />
+        <Image src="/img/Logo.png" width="60" height="60" alt="/"/>
       </Link>
       <ul className={styles.list}>
         <li className={styles.listItem}>
