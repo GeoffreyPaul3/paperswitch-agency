@@ -3,10 +3,17 @@ import Image from "next/image";
 import React from "react";
 import styles from "@/app/Product.module.css";
 import Link from "next/link";
+import Head from "next/head";
 
 const Product = ({ product }) => {
   return (
     <div className={styles.container}>
+      <div>
+        <Head>
+          <link href="/favicon.ico" rel="logo" />
+          <title>Paper Switch</title>
+        </Head>
+      </div>
       <div className={styles.cardL}>
         {product.images.map((img) => (
           <div key={img.id} className={styles.imgContainer}>

@@ -23,6 +23,7 @@ const Intro = () => {
       </div>
       <div className={styles.card}>
         <Image
+          className={styles.img}
           src="/img/Hero.png"
           alt="/"
           width="650"

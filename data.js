@@ -140,6 +140,41 @@ const data = [
       },
     ],
   },
+  {
+    id: 4,
+    name: "writing",
+    title: "Script Writing",
+    desc: "Paperswitch.inc's professional scriptwriters have a talent for storytelling and can create compelling scripts that capture the audience's attention and effectively communicate key messages.",
+    photo: "Writer.png",
+    longDesc:
+      "We understand the value of a well-crafted script in effectively communicating your message at Paperswitch.inc. Our professional scriptwriters have a talent for storytelling and can write compelling scripts that will capture your audience's attention while effectively communicating your key messages. We carefully craft scripts that speak to your target audience and bring your ideas to life, whether for video content, commercials, explainer videos, or any other type of visual media. Trust us to turn your vision into captivating narratives that will leave an impression.",
+    images: [
+      {
+        id: 1,
+        url: "https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      },
+      {
+        id: 2,
+        url: "https://images.pexels.com/photos/6326150/pexels-photo-6326150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      },
+      {
+        id: 3,
+        url: "https://images.pexels.com/photos/3184170/pexels-photo-3184170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      },
+      {
+        id: 4,
+        url: "https://images.pexels.com/photos/7674917/pexels-photo-7674917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      },
+      {
+        id: 5,
+        url: "https://images.pexels.com/photos/3278767/pexels-photo-3278767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      },
+      {
+        id: 6,
+        url: "https://images.pexels.com/photos/4238517/pexels-photo-4238517.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      },
+    ],
+  },
 ];
 
 export const services = data;
@@ -150,7 +185,7 @@ export const users = [
   {
     id: 1,
     logo: "yahoo.png",
-    avatar: "user1.jpeg",
+    avatar: "Male1.png",
     comment:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
     name: "Harold Brown",
@@ -159,7 +194,7 @@ export const users = [
   {
     id: 2,
     logo: "google.png",
-    avatar: "user2.jpeg",
+    avatar: "Male2.png",
     comment:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
     name: "Anna Taylor",
@@ -168,7 +203,7 @@ export const users = [
   {
     id: 3,
     logo: "facebook.png",
-    avatar: "user3.jpeg",
+    avatar: "Female.png",
     comment:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
     name: "James Garry",

@@ -15,9 +15,3 @@ export default function Home({ services }) {
 }
 
 
-export const getStaticProps = async () => {
-  const services = data;
-  return {
-    props: { services },
-  };
-};

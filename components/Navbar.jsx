@@ -27,6 +27,9 @@ function Navbar() {
           <Link href="/products/management">MANAGEMENT</Link>
         </li>
         <li className={styles.listItem}>
+          <Link href="/products/writing">WRITING</Link>
+        </li>
+        <li className={styles.listItem}>
           <Link href="/products/contact">CONTACT</Link>
         </li>
       </ul>
@@ -49,10 +52,13 @@ function Navbar() {
           <Link href="/products/development">DEVELOPMENT</Link>
         </li>
         <li className={styles.menuItem}>
-          <Link href="/products/production">MARKETING</Link>
+          <Link href="/products/marketing">MARKETING</Link>
         </li>
         <li className={styles.menuItem}>
-          <Link href="/products/photography">MANAGEMENT</Link>
+          <Link href="/products/management">MANAGEMENT</Link>
+        </li>
+        <li className={styles.menuItem}>
+          <Link href="/products/writing">WRITING</Link>
         </li>
         <li className={styles.menuItem}>
           <Link href="/contact">CONTACT</Link>
